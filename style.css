@@ -1,0 +1,257 @@
+body{
+    margin: 0;
+    background: #F5F5DC;
+    display: flex;
+    justify-content: center;
+}
+.basket-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: absolute;
+    top: 134px;
+    right: 21px;
+}
+.basket-icon{
+    width: 55px;
+}
+
+.basket{
+    display: none;
+    background: white;
+    position: relative;
+    z-index: 5;
+    width: 500px;
+    margin-top: 20px;
+
+}
+
+.basket-container:hover .basket{
+    display: block;
+}
+
+.basket::after{
+    content: "";
+    position: absolute;
+    top: -22px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 17px 25px 17px;
+    border-color: transparent transparent #C0C0C0 transparent;
+}
+
+.cart-header{
+    height: 35px;
+    color: gray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: -webkit-linear-gradient(bottom, #E6E6FA, 	#C0C0C0);
+}
+
+.cart-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #696969;
+    margin: 10px;
+}
+
+.item-title{
+    display: inline-block;
+    width: 140px;
+    text-align: left;
+    padding-left: 15px;
+}
+
+.item-price{
+    display: inline-block;
+    width: 118px;
+    text-align: end;
+}
+
+.item-sum{
+    display: inline-block;
+    width: 123px;
+    text-align: end;
+    margin-right: 10px;
+}
+
+.cart-amount{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70px;
+    height: 25px;
+    border: 1px solid #C0C0C0;
+}
+
+.cart-amount a{
+    text-decoration: none;
+    font-family: "Play", sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    color: #BF4630;
+}
+
+.cart-amount input{
+    width: 25px;
+    color: #708090;
+    background: white;
+    text-align: center;
+    border: none;
+    margin-top: 3px;
+    font-size: 16px;
+}
+
+.delete{
+    width: 20px;
+    height: 20px;
+    background: url("img/close.png") no-repeat -252px -25px;
+}
+.liner{
+    width: 470px;
+    height: 1px;
+    background: #C0C0C0;
+}
+.cart-total{
+   display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: #F5F5DC;
+    width: 175px;
+    float: right;
+    margin: 0 13px 13px;
+}
+
+.cart-total span{
+    flex-basis: 50%;
+    color: #BF4630;
+    line-height: 35px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.cart-total button{
+    border: none;
+    border-radius: 3px;
+    background: -webkit-linear-gradient(top, #BF4630, black);
+    color: #F5F5DC;
+    height: 32px;
+    width: 110px;
+    margin-bottom: 7px;
+}
+
+.container{
+    position: relative;
+    margin: 0 auto;
+    background: url('img/home_big.jpg') no-repeat 0 0;
+}
+
+.goods-list{
+    width: 960px;
+    margin: 194px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: #F5F5F5;
+}
+
+.goods-item {
+    flex-basis: 31%;
+    border: 1px solid #FF8973;
+    margin: 10px;
+}
+
+.goods-item h2{
+    font-family: "Play", sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    color: #BF4630;
+    margin-left: 15px;
+    text-decoration: underline;
+
+}
+.image-block {
+    position: relative;
+    width: 170px;
+}
+
+.goods-item img{
+    width: 170px;
+    margin: 0 60px;
+}
+.ingredient{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 60px;
+    background: white;
+    border: 1px solid #FF8973;
+    width: 150px;
+    font-size: 12px;
+}
+
+.image-block:hover .ingredient{
+    display: block;
+}
+
+.goods-info{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+.goods-info span{
+    font-family: "Play", sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+    color: #BF4630;
+}
+.goods-total{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: white;
+    border: 1px solid #FF8973;
+    margin: 5px;
+    height: 45px;
+}
+
+.goods-total button{
+    border: none;
+    border-radius: 3px;
+    background: -webkit-linear-gradient(top, #BF4630, black);
+    color: #F5F5DC;
+    height: 32px;
+    width: 110px;
+}
+
+.goods-quantity{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70px;
+    height: 30px;
+    border: 1px solid #C0C0C0;
+}
+
+.goods-quantity a{
+    text-decoration: none;
+    font-family: "Play", sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    color: #BF4630;
+}
+
+.goods-quantity input{
+    width: 25px;
+    color: #708090;
+    background: white;
+    text-align: center;
+    border: none;
+    margin-top: 3px;
+    font-size: 16px;
+}
