@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Maranello",
+    "img": "http://localhost:63342/basket/img/pizza1.jpg",
+    "ingredient": "Ingredient: ham pork, ham, salami, pepper, cheese, sauce.",
+    "price": "74.00",
+    "weight": "830"
+  },
+  {
+    "name": "4 cheese",
+    "img": "http://localhost:63342/basket/img/pizza2.jpg",
+    "ingredient": "Ingredient: Mozzarella, Gorgonzola, Dor Blue, Edam, sauce.",
+    "price": "66.00",
+    "weight": "530"
+  },
+  {
+    "name": "Pepperoni mushroom",
+    "img": "http://localhost:63342/basket/img/pizza3.jpg",
+    "ingredient": "Ingredient: salami,champignon, pepper, cheese, sauce.",
+    "price": "67.00",
+    "weight": "670"
+  },
+  {
+    "name": "Chicken with pineapple",
+    "img": "http://localhost:63342/basket/img/pizza4.jpg",
+    "ingredient": "Ingredient: chicken fillet, pineapple, tomato, cheese, sauce.",
+    "price": "65.00",
+    "weight": "730"
+  },
+  {
+    "name": "BBQ",
+    "img": "http://localhost:63342/basket/img/pizza5.jpg",
+    "ingredient": "Ingredient: ham, chicken fillet, bacon, egg, cheese, BBQ sauce.",
+    "price": "69.00",
+    "weight": "740"
+  },
+  {
+    "name": "Beef Zinzider",
+    "img": "http://localhost:63342/basket/img/pizza6.jpg",
+    "ingredient": "Ingredient: beef tenderloin, bacon, olives, cheese, sauce.",
+    "price": "66.00",
+    "weight": "670"
+  }
+]
