@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "name": "Maranello",
     "img": "http://localhost:63342/basket/img/pizza1.jpg",
     "ingredient": "Ingredient: ham pork, ham, salami, pepper, cheese, sauce.",
@@ -7,6 +8,7 @@
     "weight": "830"
   },
   {
+    "id": 2,
     "name": "4 cheese",
     "img": "http://localhost:63342/basket/img/pizza2.jpg",
     "ingredient": "Ingredient: Mozzarella, Gorgonzola, Dor Blue, Edam, sauce.",
@@ -14,6 +16,7 @@
     "weight": "530"
   },
   {
+    "id": 3,
     "name": "Pepperoni mushroom",
     "img": "http://localhost:63342/basket/img/pizza3.jpg",
     "ingredient": "Ingredient: salami,champignon, pepper, cheese, sauce.",
@@ -21,6 +24,7 @@
     "weight": "670"
   },
   {
+    "id": 4,
     "name": "Chicken with pineapple",
     "img": "http://localhost:63342/basket/img/pizza4.jpg",
     "ingredient": "Ingredient: chicken fillet, pineapple, tomato, cheese, sauce.",
@@ -28,6 +32,7 @@
     "weight": "730"
   },
   {
+    "id": 5,
     "name": "BBQ",
     "img": "http://localhost:63342/basket/img/pizza5.jpg",
     "ingredient": "Ingredient: ham, chicken fillet, bacon, egg, cheese, BBQ sauce.",
@@ -35,6 +40,7 @@
     "weight": "740"
   },
   {
+    "id": 6,
     "name": "Beef Zinzider",
     "img": "http://localhost:63342/basket/img/pizza6.jpg",
     "ingredient": "Ingredient: beef tenderloin, bacon, olives, cheese, sauce.",
