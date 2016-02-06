@@ -14,6 +14,7 @@ body{
 }
 .basket-icon{
     width: 55px;
+    height: 55px;
 }
 
 .basket{
@@ -254,4 +255,20 @@ body{
     border: none;
     margin-top: 3px;
     font-size: 16px;
+}
+
+
+@-webkit-keyframes tremor {
+    0%, 25% {
+        left: -1px;
+        top:-1px;
+        -webkit-transform: translateX(-4%);
+        transform: translateX(-4%);
+    }
+    50%, 100% {
+        left: 1px;
+        top: 1px;
+        -webkit-transform: translateX(4%);
+        transform: translateX(4%);
+    }
 }
